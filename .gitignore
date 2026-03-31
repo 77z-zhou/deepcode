@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Claude Code / AI assistant
+.deepcode/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# UV lock file (optional - remove if you want to commit it)
+# uv.lock

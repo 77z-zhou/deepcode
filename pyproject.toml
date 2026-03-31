@@ -1,0 +1,29 @@
+[project]
+name = "deepcode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.3.1",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.13",
+    "langchain-deepseek>=1.0.1",
+    "langchain-openai>=1.1.12",
+    "loguru>=0.7.3",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "pytest>=9.0.2",
+    "questionary>=2.1.1",
+    "readchar>=4.2.1",
+    "rich>=14.3.3",
+    "typer>=0.24.1",
+]
+
+
+
+[project.scripts]
+deepcode = "deepcode.__main__:app"
+
+[tool.uv]
+package = true

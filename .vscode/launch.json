@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug DeepCode CLI",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "deepcode.__main__",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Debug DeepCode CLI (Terminal)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "deepcode.__main__",
+            "console": "externalTerminal",
+            "justMyCode": false
+        }
+    ]
+}
