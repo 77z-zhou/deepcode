@@ -35,7 +35,7 @@ An intelligent AI-powered coding agent CLI (based on LangChain) that helps you w
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/77z-zhou/DeepCode.git
 cd deepcode
 
 # Install dependencies

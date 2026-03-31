@@ -35,7 +35,7 @@
 
 ```bash
 # 克隆仓库
-git clone <your-repo-url>
+git clone https://github.com/77z-zhou/DeepCode.git
 cd deepcode
 
 # 安装依赖
