@@ -77,17 +77,12 @@ python -m deepcode
 deepcode
 ```
 
-示例交互：
+示例交互： 
+![text](img/a4e53625628d87a8cdc0244695d173a6.png) 
+![text](img/b10263f6c7fc54ae68216d58481661ec.png)
+![text](img/8b8bddf92441298ae5581fa9681acc18.png) 
+![text](img/94ca0eb151164521005195a4c755ab25.png) 
 
-```
-You: 读取 main.py 文件并总结它的功能
-
-You: 为 parse_config 函数添加错误处理
-
-You: 为 User 类创建测试
-
-You: 哪些文件使用了 Database 连接？
-```
 
 ### 内置命令
 
